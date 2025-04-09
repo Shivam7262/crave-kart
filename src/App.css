@@ -1,0 +1,165 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Custom button styles with improved contrast - with !important to ensure they override */
+body.dark .btn-indian,
+.dark .btn-indian {
+  background-color: #FF9955 !important;
+  color: #000000 !important;
+  border: 2px solid #FFAA77 !important;
+}
+
+body.dark .btn-indian:hover,
+.dark .btn-indian:hover {
+  background-color: #FFAA77 !important;
+  border-color: #FFBB88 !important;
+}
+
+.btn-indian {
+  background-color: #FF7722 !important;
+  color: white !important;
+  border: 2px solid #FF7722 !important;
+}
+
+.btn-indian:hover {
+  background-color: #E56600 !important;
+  border-color: #E56600 !important;
+}
+
+body.dark .btn-chinese,
+.dark .btn-chinese {
+  background-color: #FF4444 !important;
+  color: #000000 !important;
+  border: 2px solid #FF6666 !important;
+}
+
+body.dark .btn-chinese:hover,
+.dark .btn-chinese:hover {
+  background-color: #FF6666 !important;
+  border-color: #FF8888 !important;
+}
+
+.btn-chinese {
+  background-color: #DD2222 !important;
+  color: white !important;
+  border: 2px solid #DD2222 !important;
+}
+
+.btn-chinese:hover {
+  background-color: #BB1111 !important;
+  border-color: #BB1111 !important;
+}
+
+body.dark .btn-italian,
+.dark .btn-italian {
+  background-color: #00AA55 !important;
+  color: #000000 !important;
+  border: 2px solid #00CC66 !important;
+}
+
+body.dark .btn-italian:hover,
+.dark .btn-italian:hover {
+  background-color: #00CC66 !important;
+  border-color: #00DD77 !important;
+}
+
+.btn-italian {
+  background-color: #008C45 !important;
+  color: white !important;
+  border: 2px solid #008C45 !important;
+}
+
+.btn-italian:hover {
+  background-color: #006633 !important;
+  border-color: #006633 !important;
+}
+
+/* Gradient text with better dark mode support */
+body.dark .gradient-text,
+.dark .gradient-text {
+  background: linear-gradient(90deg, #FFA060, #FF6060, #40D080);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.15);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #FF7722, #DD2222, #008C45);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.shop-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode improvements - with better specificity */
+body.dark h1, 
+body.dark h2, 
+body.dark h3, 
+body.dark h4, 
+body.dark h5, 
+body.dark h6,
+.dark h1, 
+.dark h2, 
+.dark h3, 
+.dark h4, 
+.dark h5, 
+.dark h6 {
+  color: white !important;
+}
+
+body.dark p,
+.dark p {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+body.dark .text-gray-600,
+.dark .text-gray-600 {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
